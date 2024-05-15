@@ -38,5 +38,4 @@ Una volta cliccata un`immagine del video che si vuole scaricare si potrà scegli
 
 ## ✍️ Documentazione
 
-- [Presentazione](https://github.com/SamOraDur/06_YoutubeDownloader/blob/main/doc/YTDownloaderPresentazione.pptx)
-- [Guida al deploy (pdf) ](https://github.com/SamOraDur/06_YoutubeDownloader/blob/main/doc/Manuale.pdf)
+- [Presentazione](https://github.com/SamOraDur/06_YoutubeDownloader/blob/main/blob/main/doc/YTDownloaderPresentazione.pptx)
