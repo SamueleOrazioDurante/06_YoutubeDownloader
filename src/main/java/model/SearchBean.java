@@ -56,6 +56,11 @@ public class SearchBean implements java.io.Serializable{
 		ArrayList<Video> videoes = new ArrayList<Video>();
 		
 		JSONObject json = new JSONObject(jsonString);
+		
+		if(!(json.has("videos"))) {
+			return null;
+		}
+
 		JSONArray jsonVideoes = json.getJSONArray("videos");
 		
 		//for every Video object inside the JSON I take every attribute and create a new Video Object and put it in the arraylist
@@ -69,8 +74,12 @@ public class SearchBean implements java.io.Serializable{
 			String author = jsonVideo.getString("author");
 			String description = jsonVideo.getString("description");
 			int views = jsonVideo.getInt("number_of_views");
-			String video_lenght = jsonVideo.getString("video_length");
 			
+			String video_lenght = null;
+			if(jsonVideo.has("video_length")) {
+				 video_lenght = jsonVideo.getString("video_length");
+			}
+				
 			JSONArray jsonImages = jsonVideo.getJSONArray("thumbnails");
 			JSONObject jsonImage = jsonImages.getJSONObject(0);
 			String url = jsonImage.getString("url");

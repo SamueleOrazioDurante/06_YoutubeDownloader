@@ -42,6 +42,7 @@
         while(request.getParameter("quality"+i)!=null){
 			String quality =(String) request.getParameter("quality"+i);
 			String url = (String) request.getParameter("url"+i);
+			url = url.replaceAll("ECOMMERCIALE", "&");
         %>
         
         

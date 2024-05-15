@@ -43,6 +43,9 @@ public class searchServlet extends HttpServlet {
 		
 		String query = request.getParameter("query");
 		
+		//url doesnt like spaces 
+		query = query.replaceAll(" ", "%20");
+		
 		VideoesList videoesList = searchBean.search(query);
 		request.setAttribute("videoesList", videoesList);
 		

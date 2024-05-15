@@ -107,13 +107,16 @@ public class DownloadBean implements java.io.Serializable{
 		
 		JSONObject json = new JSONObject(jsonString);
 		JSONArray formats = json.getJSONArray("formats");
-		
+
 		ArrayList<MP4Video> mp4Videos = new ArrayList<MP4Video>();
 		
 		for(int i=0;i<formats.length();i++) {
 			
 			JSONObject format = formats.getJSONObject(i);
 			String url = format.getString("url");
+			//used for GET request building in the MP4 quality page
+			url = url.replaceAll("&", "ECOMMERCIALE");
+
 			String quality = format.getString("qualityLabel");
 			
 			MP4Video mp4video = new MP4Video(url,quality);
