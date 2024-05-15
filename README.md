@@ -14,7 +14,7 @@ Prima di procedere è necessario avere installato sul proprio dispositivo Tomcat
 
 Procedere con il deploy delle applicazioni tramite tomcat, importando i file "06_YoutubeDownloader.war" (ritrovabile nella sezione release) e "06_YoutubeAPI" (ritrovabile nella sezione release di questa [pagina](https://github.com/SamOraDur/06_YoutubeAPI) ) , e procedendo con l'avvio delle applicazioni.
 
-<img src="https://github.com/SamOraDur/06_YoutubeDownloader/blob/main/doc/img/tomcat.png" height="400" width="800">
+<img src="https://github.com/SamOraDur/06_YoutubeDownloader/blob/main/blob/main/doc/img/tomcat.png" height="400" width="800">
 
 A questo punto andare sulla pagina [localhost](http://localhost:8080/06_YoutubeDownloader) e procedere con l'utilizzo dell'applicazione!
 
@@ -22,15 +22,15 @@ A questo punto andare sulla pagina [localhost](http://localhost:8080/06_YoutubeD
 
 Sarà possibile effettuare una ricerca dei video di nostro interesse.
 
-<img src="https://github.com/SamOraDur/06_YoutubeDownloader/blob/main/doc/img/search.png" height="400" width="800">
+<img src="https://github.com/SamOraDur/06_YoutubeDownloader/blob/main/blob/main/doc/img/search.png" height="400" width="800">
 
 E ritrovarsi un`elenco di 20 video
 
-<img src="https://github.com/SamOraDur/06_YoutubeDownloader/blob/main/doc/img/searched.png" height="400" width="800">
+<img src="https://github.com/SamOraDur/06_YoutubeDownloader/blob/main/blob/main/doc/img/searched.png" height="400" width="800">
 
 Una volta cliccata un`immagine del video che si vuole scaricare si potrà scegliere tra i formati MP3 e MP4. Infine premere il pulsante download.
 
-<img src="https://github.com/SamOraDur/06_YoutubeDownloader/blob/main/doc/img/format.png" height="400" width="800">
+<img src="https://github.com/SamOraDur/06_YoutubeDownloader/blob/main/blob/main/doc/img/format.png" height="400" width="800">
 
 ## 🧑 Autore
 
