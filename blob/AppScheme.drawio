@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" modified="2024-05-16T15:19:11.041Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="pGPN_byiVDXCa5yOxixz" version="24.4.2" type="device">
+  <diagram name="Pagina-1" id="T-lQzecvCJPsvwB6S7Eg">
+    <mxGraphModel dx="1062" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1BGq4OuxUa7FQNB4vaIY-1" value="Client" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=#b85450;fillColor=#f8cecc;shape=mxgraph.azure.computer;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="190" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1BGq4OuxUa7FQNB4vaIY-2" value="" style="html=1;outlineConnect=0;fillColor=#ffe6cc;strokeColor=#d79b00;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.bus;gradientDirection=north;perimeter=backbonePerimeter;backboneSize=20;" vertex="1" parent="1">
+          <mxGeometry x="350" y="240" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1BGq4OuxUa7FQNB4vaIY-3" value="My API" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=api" vertex="1" parent="1">
+          <mxGeometry x="610" y="190" width="125" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1BGq4OuxUa7FQNB4vaIY-4" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=api" vertex="1" parent="1">
+          <mxGeometry x="646.46" y="420" width="52.08" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1BGq4OuxUa7FQNB4vaIY-6" value="External API" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=api" vertex="1" parent="1">
+          <mxGeometry x="820" y="225" width="52.08" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1BGq4OuxUa7FQNB4vaIY-7" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=api" vertex="1" parent="1">
+          <mxGeometry x="646.46" y="50" width="52.08" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1BGq4OuxUa7FQNB4vaIY-8" value="" style="html=1;outlineConnect=0;fillColor=#ffe6cc;strokeColor=#d79b00;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.bus;gradientDirection=north;perimeter=backbonePerimeter;backboneSize=20;" vertex="1" parent="1">
+          <mxGeometry x="746.04" y="250" width="63.96" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="1BGq4OuxUa7FQNB4vaIY-9" value="" style="html=1;outlineConnect=0;fillColor=#ffe6cc;strokeColor=#d79b00;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.bus;gradientDirection=north;perimeter=backbonePerimeter;backboneSize=20;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="640.5199999999999" y="340" width="63.96" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1BGq4OuxUa7FQNB4vaIY-10" value="" style="html=1;outlineConnect=0;fillColor=#ffe6cc;strokeColor=#d79b00;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.bus;gradientDirection=north;perimeter=backbonePerimeter;backboneSize=20;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="640.5199999999999" y="110" width="63.96" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
